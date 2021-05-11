@@ -1,0 +1,36 @@
+C# Access Modifiers
+
+Access Modifiers
+
+By now, you are quite familiar with the public keyword that appears in many of our examples:
+
+public string color;
+
+The public keyword is an access modifier, which is used to set the access level/visibility for classes, fields, methods and properties.
+
+C# has the following access modifiers:
+
+
+There's also two combinations: protected internal and private protected.
+
+For now, lets focus on public and private modifiers.
+
+Private Modifier
+If you declare a field with a private access modifier, it can only be accessed within the same class:
+
+Example
+
+class Car
+ 
+{
+  private string model = "Mustang";
+
+  static void Main(string[] args)
+  {
+    Car myObj = new Car();
+    Console.WriteLine(myObj.model);
+  }
+}
+The output will be:
+
+Mustang
