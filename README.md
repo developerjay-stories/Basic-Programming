@@ -1,17 +1,23 @@
 # Basic-Programs
 Creating Hello World Program
 
-A C# program consists of the following parts 
+**A C# program consists of the following parts **
 
 Namespace declaration
+
 A class
+
 Class methods
+
 Class attributes
+
 A Main method
+
 Statements and Expressions
+
 Comments
 
-Let us look at a simple code that prints the words "Hello World" 
+**Let us look at a simple code that prints the words "Hello World" **
 
 using System;
 
@@ -27,7 +33,7 @@ namespace HelloWorld
 }
 
 
-Let us look at the various parts of the given program 
+**Let us look at the various parts of the given program **
 
 The first line of the program using System; - the using keyword is used to include the System namespace in the program. A program generally has multiple using statements.
 
